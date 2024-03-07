@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-
+/*
+UWAGA Żeby aplikacja działała poprawnie trzeba umieścić plik Questions.txt(podesłany wraz z repozytorium) w \bin\Debug\net8.0 aby był dostęp do pytań
+*/
 namespace QuizApp
 {
     class Question
