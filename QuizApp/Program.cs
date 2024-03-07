@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -39,7 +39,7 @@ namespace QuizApp
         static void StartQuiz()
         {
             Console.Clear();
-            string path = "Data/Questions.txt";
+            string path = "Questions.txt";
             int selectedQuestion;
             List<Question> questions = new List<Question>();
             if (!File.Exists(path))
@@ -107,7 +107,7 @@ namespace QuizApp
             Console.WriteLine($"Twój wynik to: {points}/{maxQ}");
             Console.Write("Podaj imię: ");
             string playerName = Console.ReadLine();
-            File.AppendAllText("Data/rekord.txt", $"{playerName}: {points}/{maxQ}\n");
+            File.AppendAllText("rekord.txt", $"{playerName}: {points}/{maxQ}\n");
             Console.WriteLine("Wynik zapisany.");
             Console.ReadKey();
         }
@@ -117,9 +117,9 @@ namespace QuizApp
             Console.Clear();
             Console.WriteLine("Lista wyników:");
 
-            if (File.Exists("Data/rekord.txt"))
+            if (File.Exists("rekord.txt"))
             {
-                string[] lines = File.ReadAllLines("Data/rekord.txt");
+                string[] lines = File.ReadAllLines("rekord.txt");
                 foreach (string line in lines)
                 {
                     Console.WriteLine(line);
