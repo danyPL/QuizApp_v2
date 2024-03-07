@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizApp", "QuizApp\QuizApp.csproj", "{6C6AD2C4-2030-4E48-B9F5-D15BC9758D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C6AD2C4-2030-4E48-B9F5-D15BC9758D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6AD2C4-2030-4E48-B9F5-D15BC9758D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6AD2C4-2030-4E48-B9F5-D15BC9758D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6AD2C4-2030-4E48-B9F5-D15BC9758D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {800957A2-4197-48D4-A53C-155064EAC05C}
+	EndGlobalSection
+EndGlobal
